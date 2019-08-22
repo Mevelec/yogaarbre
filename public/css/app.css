@@ -1408,7 +1408,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   line-height: 1.6;
-  color: #636b6f;
+  color: #1e1e1e;
   background-color: #f5f8fa;
 }
 
@@ -1642,7 +1642,7 @@ p {
   line-height: 1.4;
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .lead {
     font-size: 21px;
   }
@@ -1854,7 +1854,7 @@ dd {
   clear: both;
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .dl-horizontal dt {
     float: left;
     width: 160px;
@@ -2018,19 +2018,19 @@ pre code {
   clear: both;
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .container {
     width: 750px;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: only screen && (max-width: 767.98px)) {
   .container {
     width: 970px;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: only screen && (max-width: 991.98px)) {
   .container {
     width: 1170px;
   }
@@ -2351,7 +2351,7 @@ pre code {
   margin-left: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .col-sm-1,
   .col-sm-2,
   .col-sm-3,
@@ -2572,7 +2572,7 @@ pre code {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: only screen && (max-width: 767.98px)) {
   .col-md-1,
   .col-md-2,
   .col-md-3,
@@ -2793,7 +2793,7 @@ pre code {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: only screen && (max-width: 991.98px)) {
   .col-lg-1,
   .col-lg-2,
   .col-lg-3,
@@ -3237,7 +3237,7 @@ th {
   overflow-x: auto;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: "only screen and (max-width: 575.98px)" - 1) {
   .table-responsive {
     width: 100%;
     margin-bottom: 16.5px;
@@ -3379,7 +3379,7 @@ output {
   color: #555555;
   background-color: #fff;
   background-image: none;
-  border: 1px solid #ccd0d2;
+  border: 1px solid #848484;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -3398,16 +3398,16 @@ output {
 }
 
 .form-control::-moz-placeholder {
-  color: #b1b7ba;
+  color: #6b6a6a;
   opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #b1b7ba;
+  color: #6b6a6a;
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #b1b7ba;
+  color: #6b6a6a;
 }
 
 .form-control::-ms-expand {
@@ -3851,10 +3851,10 @@ select[multiple].input-lg,
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #a4aaae;
+  color: #5e5e5e;
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .form-inline .form-group {
     display: inline-block;
     margin-bottom: 0;
@@ -3944,7 +3944,7 @@ select[multiple].input-lg,
   clear: both;
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .form-horizontal .control-label {
     padding-top: 7px;
     margin-bottom: 0;
@@ -3956,14 +3956,14 @@ select[multiple].input-lg,
   right: 15px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .form-horizontal .form-group-lg .control-label {
     padding-top: 11px;
     font-size: 18px;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .form-horizontal .form-group-sm .control-label {
     padding-top: 6px;
     font-size: 12px;
@@ -4005,7 +4005,7 @@ select[multiple].input-lg,
 .btn:hover,
 .btn:focus,
 .btn.focus {
-  color: #636b6f;
+  color: #1e1e1e;
   text-decoration: none;
 }
 
@@ -4033,20 +4033,20 @@ fieldset[disabled] a.btn {
 }
 
 .btn-default {
-  color: #636b6f;
+  color: #1e1e1e;
   background-color: #fff;
   border-color: #ccc;
 }
 
 .btn-default:focus,
 .btn-default.focus {
-  color: #636b6f;
+  color: #1e1e1e;
   background-color: #e6e5e5;
   border-color: #8c8c8c;
 }
 
 .btn-default:hover {
-  color: #636b6f;
+  color: #1e1e1e;
   background-color: #e6e5e5;
   border-color: #adadad;
 }
@@ -4054,7 +4054,7 @@ fieldset[disabled] a.btn {
 .btn-default:active,
 .btn-default.active,
 .open > .btn-default.dropdown-toggle {
-  color: #636b6f;
+  color: #1e1e1e;
   background-color: #e6e5e5;
   background-image: none;
   border-color: #adadad;
@@ -4069,7 +4069,7 @@ fieldset[disabled] a.btn {
 .open > .btn-default.dropdown-toggle:hover,
 .open > .btn-default.dropdown-toggle:focus,
 .open > .btn-default.dropdown-toggle.focus {
-  color: #636b6f;
+  color: #1e1e1e;
   background-color: #d4d4d4;
   border-color: #8c8c8c;
 }
@@ -4089,7 +4089,7 @@ fieldset[disabled] .btn-default.focus {
 
 .btn-default .badge {
   color: #fff;
-  background-color: #636b6f;
+  background-color: #1e1e1e;
 }
 
 .btn-primary {
@@ -4659,7 +4659,7 @@ tbody.collapse.in {
   margin-bottom: 2px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .navbar-right .dropdown-menu {
     right: 0;
     left: auto;
@@ -4953,7 +4953,7 @@ tbody.collapse.in {
   color: #555555;
   text-align: center;
   background-color: #eeeeee;
-  border: 1px solid #ccd0d2;
+  border: 1px solid #848484;
   border-radius: 4px;
 }
 
@@ -5181,7 +5181,7 @@ tbody.collapse.in {
   left: auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .nav-justified > li,
   .nav-tabs.nav-justified > li {
     display: table-cell;
@@ -5214,7 +5214,7 @@ tbody.collapse.in {
   border: 1px solid #ddd;
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .nav-tabs-justified > li > a,
   .nav-tabs.nav-justified > li > a {
     border-bottom: 1px solid #ddd;
@@ -5262,7 +5262,7 @@ tbody.collapse.in {
   clear: both;
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .navbar {
     border-radius: 4px;
   }
@@ -5278,7 +5278,7 @@ tbody.collapse.in {
   clear: both;
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .navbar-header {
     float: left;
   }
@@ -5308,7 +5308,7 @@ tbody.collapse.in {
   overflow-y: auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .navbar-collapse {
     width: auto;
     border-top: 0;
@@ -5355,7 +5355,7 @@ tbody.collapse.in {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .navbar-fixed-top,
   .navbar-fixed-bottom {
     border-radius: 0;
@@ -5381,7 +5381,7 @@ tbody.collapse.in {
   margin-left: -15px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .container > .navbar-header,
   .container > .navbar-collapse,
   .container-fluid > .navbar-header,
@@ -5396,7 +5396,7 @@ tbody.collapse.in {
   border-width: 0 0 1px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .navbar-static-top {
     border-radius: 0;
   }
@@ -5419,7 +5419,7 @@ tbody.collapse.in {
   display: block;
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
@@ -5454,7 +5454,7 @@ tbody.collapse.in {
   margin-top: 4px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .navbar-toggle {
     display: none;
   }
@@ -5470,7 +5470,7 @@ tbody.collapse.in {
   line-height: 22px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: "only screen and (max-width: 575.98px)" - 1) {
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
@@ -5497,7 +5497,7 @@ tbody.collapse.in {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .navbar-nav {
     float: left;
     margin: 0;
@@ -5525,7 +5525,7 @@ tbody.collapse.in {
   margin-bottom: 7px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .navbar-form .form-group {
     display: inline-block;
     margin-bottom: 0;
@@ -5586,7 +5586,7 @@ tbody.collapse.in {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: "only screen and (max-width: 575.98px)" - 1) {
   .navbar-form .form-group {
     margin-bottom: 5px;
   }
@@ -5596,7 +5596,7 @@ tbody.collapse.in {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .navbar-form {
     width: auto;
     padding-top: 0;
@@ -5645,7 +5645,7 @@ tbody.collapse.in {
   margin-bottom: 14px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .navbar-text {
     float: left;
     margin-right: 15px;
@@ -5653,7 +5653,7 @@ tbody.collapse.in {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .navbar-left {
     float: left !important;
   }
@@ -5669,7 +5669,7 @@ tbody.collapse.in {
 }
 
 .navbar-default {
-  background-color: #fff;
+  background-color: #f8f8f8;
   border-color: #d3e0e9;
 }
 
@@ -5701,7 +5701,7 @@ tbody.collapse.in {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #555;
-  background-color: #eeeeee;
+  background-color: #e7e7e7;
 }
 
 .navbar-default .navbar-nav > .disabled > a,
@@ -5715,10 +5715,10 @@ tbody.collapse.in {
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   color: #555;
-  background-color: #eeeeee;
+  background-color: #e7e7e7;
 }
 
-@media (max-width: 767px) {
+@media (max-width: "only screen and (max-width: 575.98px)" - 1) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777;
   }
@@ -5733,7 +5733,7 @@ tbody.collapse.in {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #555;
-    background-color: #eeeeee;
+    background-color: #e7e7e7;
   }
 
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
@@ -5836,7 +5836,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: #090909;
 }
 
-@media (max-width: 767px) {
+@media (max-width: "only screen and (max-width: 575.98px)" - 1) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #090909;
   }
@@ -6272,7 +6272,7 @@ a.badge:focus {
   max-width: 100%;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: only screen && (max-width: 575.98px)) {
   .jumbotron {
     padding-top: 48px;
     padding-bottom: 48px;
@@ -6313,7 +6313,7 @@ a.badge:focus {
 
 .thumbnail .caption {
   padding: 9px;
-  color: #636b6f;
+  color: #1e1e1e;
 }
 
 a.thumbnail:hover,
@@ -7456,7 +7456,7 @@ button.close {
   overflow: scroll;
 }
 
-@media (min-width: 768px) {
+@media (min-width: only screen && (max-width: 575.98px)) {
   .modal-dialog {
     width: 600px;
     margin: 30px auto;
@@ -7472,7 +7472,7 @@ button.close {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: only screen && (max-width: 767.98px)) {
   .modal-lg {
     width: 900px;
   }
@@ -7983,7 +7983,7 @@ button.close {
   text-shadow: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: only screen && (max-width: 575.98px)) {
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-prev,
@@ -8102,7 +8102,7 @@ button.close {
   display: none !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: "only screen and (max-width: 575.98px)" - 1) {
   .visible-xs {
     display: block !important;
   }
@@ -8121,25 +8121,25 @@ button.close {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: "only screen and (max-width: 575.98px)" - 1) {
   .visible-xs-block {
     display: block !important;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: "only screen and (max-width: 575.98px)" - 1) {
   .visible-xs-inline {
     display: inline !important;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: "only screen and (max-width: 575.98px)" - 1) {
   .visible-xs-inline-block {
     display: inline-block !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: only screen && (max-width: 575.98px)) and (max-width: "only screen and (max-width: 767.98px)" - 1) {
   .visible-sm {
     display: block !important;
   }
@@ -8158,25 +8158,25 @@ button.close {
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: only screen && (max-width: 575.98px)) and (max-width: "only screen and (max-width: 767.98px)" - 1) {
   .visible-sm-block {
     display: block !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: only screen && (max-width: 575.98px)) and (max-width: "only screen and (max-width: 767.98px)" - 1) {
   .visible-sm-inline {
     display: inline !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: only screen && (max-width: 575.98px)) and (max-width: "only screen and (max-width: 767.98px)" - 1) {
   .visible-sm-inline-block {
     display: inline-block !important;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: only screen && (max-width: 767.98px)) and (max-width: "only screen and (max-width: 991.98px)" - 1) {
   .visible-md {
     display: block !important;
   }
@@ -8195,25 +8195,25 @@ button.close {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: only screen && (max-width: 767.98px)) and (max-width: "only screen and (max-width: 991.98px)" - 1) {
   .visible-md-block {
     display: block !important;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: only screen && (max-width: 767.98px)) and (max-width: "only screen and (max-width: 991.98px)" - 1) {
   .visible-md-inline {
     display: inline !important;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: only screen && (max-width: 767.98px)) and (max-width: "only screen and (max-width: 991.98px)" - 1) {
   .visible-md-inline-block {
     display: inline-block !important;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: only screen && (max-width: 991.98px)) {
   .visible-lg {
     display: block !important;
   }
@@ -8232,43 +8232,43 @@ button.close {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: only screen && (max-width: 991.98px)) {
   .visible-lg-block {
     display: block !important;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: only screen && (max-width: 991.98px)) {
   .visible-lg-inline {
     display: inline !important;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: only screen && (max-width: 991.98px)) {
   .visible-lg-inline-block {
     display: inline-block !important;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: "only screen and (max-width: 575.98px)" - 1) {
   .hidden-xs {
     display: none !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: only screen && (max-width: 575.98px)) and (max-width: "only screen and (max-width: 767.98px)" - 1) {
   .hidden-sm {
     display: none !important;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: only screen && (max-width: 767.98px)) and (max-width: "only screen and (max-width: 991.98px)" - 1) {
   .hidden-md {
     display: none !important;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: only screen && (max-width: 991.98px)) {
   .hidden-lg {
     display: none !important;
   }
@@ -8336,7 +8336,65 @@ button.close {
 /* Use the variables */
 
 body {
-  color: #636b6f;
+  color: #1e1e1e;
+  background-color: #ffebcc;
   font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  font-size: inherit;
+  font-weight: inherit;
+  color: #4e4e4e;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #f88c43;
+}
+
+.topnav {
+  overflow: hidden;
+  text-align: right;
+  background-color: #fff;
+}
+
+.topnav a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 20px;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media only screen and (max-width: 767.98px) {
+  .topnav {
+    text-align: center;
+  }
+
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive a {
+    background-color: #eee;
+    float: none;
+    display: block;
+    text-align: center;
+  }
 }
 

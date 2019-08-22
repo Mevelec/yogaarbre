@@ -1,0 +1,36 @@
+.topnav {
+  overflow: hidden;
+  text-align: right;
+  background-color: #fff;
+
+  a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+  }
+
+
+  .icon {
+    display: none;
+  }
+
+  @media #{$screen-md-min} {
+    text-align: center;
+    a:not(:first-child) {display: none;}
+    a.icon {
+      display: block;
+    }
+
+  }
+}
+@media #{$screen-md-min} {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a {
+    background-color: #eee;
+
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}

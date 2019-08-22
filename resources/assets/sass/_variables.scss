@@ -21,13 +21,16 @@ $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 $font-family-sans-serif: "Raleway", sans-serif;
 $font-size-base: 14px;
 $line-height-base: 1.6;
-$text-color: #636b6f;
+$text-color: #1e1e1e;
 
-// Navbar
-$navbar-default-bg: #fff;
+// a
+$hyper-link-color:#4e4e4e;
+$hyper-link-color-active: rgb(248, 140, 67);
 
 // Buttons
 $btn-default-color: $text-color;
+$btn-hamburger-desactivated: #cdcdcd;
+$btn-hamburger-activated: #232323;
 
 // Inputs
 $input-border: lighten($text-color, 40%);
@@ -36,3 +39,15 @@ $input-color-placeholder: lighten($text-color, 30%);
 
 // Panels
 $panel-default-heading-bg: #fff;
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: "only screen and (max-width: 575.98px)";
+ 
+// Small tablets (portrait view)
+$screen-md-min: "only screen and (max-width: 767.98px)";
+ 
+// Tablets and small desktops
+$screen-lg-min: "only screen and (max-width: 991.98px)";
+ 
+// Large tablets and desktops
+$screen-xl-min: "only screen and (max-width: 1199.98px)";

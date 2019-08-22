@@ -2,5 +2,18 @@
 /* Use the variables */
 body {
   color: $text-color;
+  background-color: #ffebcc; 
   font-size: $font-size-base;
 }
+
+a {
+  text-decoration: none;
+  font-size: inherit;
+  font-weight: inherit;
+  color: $hyper-link-color;
+}
+
+a:hover, a:active, a:focus, a.active{
+  color: $hyper-link-color-active
+}
+
