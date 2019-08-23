@@ -16,14 +16,14 @@
     @stop
 
     @section('content')
-        <h2>Stressé ? Fatiqué ?</h2>
-        <h1>Yoga L'arbre</h1>
+    <div class="home-content">
+        <div class="col-xs-12 title background-center">
+            <h2>Stressé ? Fatiqué ?</h2>
+            <h1>Yoga L'arbre</h1>
+        </div>
 
-        <h2>Le Yoga peut vous aider à : </h2>
-        <p>
-            Retrouver souplesse et dynamisme, Gérer le stress au quotidien, 
-            Apaiser les tensions avec des conséquences postives pour soi-même et son entourage.
-        </p>
+        @include('components.advantages')
+        <div class="col-xs-12">
 
         <hr>
 
@@ -47,7 +47,8 @@
                 6 avenue du GAL de Gaulle (quartier du Sanitas), 
                 arrêt tram: Liberté
                 </p>
-
+        </div>
+    </div>
     @stop
 {{-- JS--}}
     @push('js')

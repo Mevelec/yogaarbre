@@ -1,0 +1,52 @@
+.home-content{
+    .title{
+        background: url(/../images/backgrounds/background-title.jpg);
+        
+        height: 100%;
+        max-height: 500px;
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+
+        text-align: center;
+        color: $text-color-main;
+
+        h1{
+            font-size: 80px;
+            text-shadow: 3px 3px 3px $text-color-main-darker;
+        }
+
+        h2{
+            font-size: 50px;
+            text-shadow: 2px 2px 2px $text-color-main-darker;
+        }
+        :nth-child(1) {
+            margin-top: 120px;
+        }
+        :nth-child(2) {
+            margin-top: 100px;
+        }
+    }
+
+    @media #{$screen-md-min} {
+        .title{
+            max-height: 200px;
+
+            h1{
+                font-size: 40px;
+                text-shadow: 2px 2px 2px $text-color-main-darker;
+            }
+    
+            h2{
+                font-size: 25px;
+                text-shadow: 1px 1px 1px $text-color-main-darker;
+            }
+
+            :nth-child(1) {
+                margin-top: 40px;
+            }
+            :nth-child(2) {
+                margin-top: 30px;
+            }
+        }
+    }
+}
