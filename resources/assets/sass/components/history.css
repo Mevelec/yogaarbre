@@ -1,0 +1,14 @@
+.history {
+  width: 100%;
+  text-align: center;
+}
+.history .content {
+  display: flex;
+}
+.history .content > .item {
+  margin-right: 100px;
+  text-align: justify;
+}
+.history .content .item:last-of-type {
+  margin-right: 0px;
+}

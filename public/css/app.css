@@ -8385,6 +8385,24 @@ h5 {
   font-weight: 900;
 }
 
+h6 {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+b {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.home-content {
+  margin: 0px 40px;
+}
+
+.home-content > div {
+  display: inline-block;
+}
+
 .home-content .title {
   background: url(/../images/backgrounds/background-title.jpg);
   height: 100%;
@@ -8483,5 +8501,64 @@ h5 {
 
 .advantages {
   width: 100%;
+  text-align: center;
+}
+
+.advantages .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.advantages .list .item:hover .circle {
+  background-color: #848484;
+}
+
+.advantages .list .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.advantages .list .item .circle {
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #f88c43;
+}
+
+.advantages .list .item .circle img {
+  width: 50px;
+  height: 50px;
+}
+
+.advantages .list .item .text {
+  text-align: justify;
+  margin: auto 20px;
+}
+
+.history {
+  width: 100%;
+  text-align: center;
+}
+
+.history .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.history .content > .item {
+  margin-right: 100px;
+  text-align: justify;
+}
+
+.history .content .item:last-of-type {
+  margin-right: 0px;
 }
 

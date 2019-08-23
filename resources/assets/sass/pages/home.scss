@@ -1,4 +1,9 @@
 .home-content{
+    margin: 0px 40px;
+
+    > div {
+        display: inline-block;
+    }
     .title{
         background: url(/../images/backgrounds/background-title.jpg);
         

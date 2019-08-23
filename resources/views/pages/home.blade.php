@@ -23,21 +23,11 @@
         </div>
 
         @include('components.advantages')
+        <hr>
+        @include('components.history')
+        <hr>
+
         <div class="col-xs-12">
-
-        <hr>
-
-        <p>
-            L'association L'ARBRE, créée en 1986, 
-            est née d'une des démarches spirituelles et 
-            humaniste qui s'adresse à la personne et à sa liberté intérieure.
-            <br>
-            L'association L’ARBRE vous propose une activité d'HATA-YOGA, 
-            centrée sur un éveil du corps et une respiration profonde, 
-            à la portée de tous pour améliorer, à votre rythme votre vie quotidienne.
-        </p>
-
-        <hr>
 
         <h2>Horaires et lieux des cours</h2>
         <p>Le mardi de 10h à 11h 30 à la Résidence "Bocage parc",

@@ -1,9 +1,30 @@
 <div class="advantages">
     <h2>Le Yoga peut vous aider ! </h2>
 
-    <ul>
-        <li>Retrouvez souplesse et dynamisme</li>
-        <li>Gérez le stress au quotidien</li>
-        <li>Apaisez les tensions avec des conséquences postives pour soi-même et son entourage</li>
-    </ul>
+    <div class="list">
+        <div class="item">
+            <div class="circle">
+                <img src="{{asset('images/icons/warrior.png')}}">
+            </div>
+            <div class="text">
+                Retrouvez souplesse et dynamisme
+            </div>
+        </div>
+        <div class="item">
+            <div class="circle">
+                <img src="{{asset('images/icons/yin-yang.png')}}">
+            </div>
+            <div class="text">
+                Gérez le stress au quotidien
+            </div>
+        </div>
+        <div class="item">
+            <div class="circle">
+                <img src="{{asset('images/icons/yoga.png')}}">
+            </div>
+            <div class="text">
+                Apaisez les tensions avec des conséquences postives<br> pour soi-même et son entourage
+            </div>
+        </div>
+    </div>
 </div>

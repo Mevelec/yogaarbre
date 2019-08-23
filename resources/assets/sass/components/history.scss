@@ -1,0 +1,15 @@
+.history{
+    width: 100%;
+    text-align: center;
+
+    .content{
+        display: flex;
+        > .item{
+            margin-right: 100px;
+            text-align: justify;
+        }
+        .item:last-of-type{
+            margin-right: 0px;
+        }
+    }
+}
