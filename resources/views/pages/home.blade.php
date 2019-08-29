@@ -26,7 +26,7 @@
         <hr>
         @include('components.history')
         <hr>
-
+        @include('components.plansSubscription.plansList')
         <div class="col-xs-12">
 
         <h2>Horaires et lieux des cours</h2>
