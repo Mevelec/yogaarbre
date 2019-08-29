@@ -1,0 +1,31 @@
+.lessonsTimes{
+    width: 100%;
+    > .title{
+        text-align: center;
+    }
+
+    > .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+         .item{
+            padding: 10px;
+            display: flex;
+            text-align: left;
+            .day{
+                width: 110px;
+                font-size: $font-size-base + 2px;
+                .times{
+                    font-size: $font-size-base;
+                }
+            }
+            .place{
+                padding-left: 20px;
+                .nearStop{
+
+                }
+            }
+        }
+    }
+}
