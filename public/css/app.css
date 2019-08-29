@@ -8224,8 +8224,8 @@ body {
 a {
   text-decoration: none;
   font-size: inherit;
-  font-weight: inherit;
-  color: #4e4e4e;
+  font-weight: 500;
+  color: #8b4e08;
 }
 
 a:hover,
@@ -8472,5 +8472,38 @@ b {
 .plansList {
   width: 100%;
   text-align: center;
+}
+
+.lessonsTimes {
+  width: 100%;
+}
+
+.lessonsTimes > .title {
+  text-align: center;
+}
+
+.lessonsTimes > .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lessonsTimes > .content .item {
+  padding: 10px;
+  display: flex;
+  text-align: left;
+}
+
+.lessonsTimes > .content .item .day {
+  width: 110px;
+  font-size: 16px;
+}
+
+.lessonsTimes > .content .item .day .times {
+  font-size: 14px;
+}
+
+.lessonsTimes > .content .item .place {
+  padding-left: 20px;
 }
 
