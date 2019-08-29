@@ -2,10 +2,11 @@
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">ss
       <i class="fa fa-bars"></i>
     </a>
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+  <a href="#Accueil" class="active">Accueil</a>
+  <a href="{{url('/memberSpace')}}">Membre</a>
+  <a href="{{url('/subscribe')}}">Inscription</a>
+  <a href="{{url('/contact')}}">Contact</a>
+  <a href="{{url('/about')}}">A propos</a>
 </div>
 
 <script>
