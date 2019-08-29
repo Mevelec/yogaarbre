@@ -26,18 +26,20 @@
         <hr>
         @include('components.history')
         <hr>
-        @include('components.plansSubscription.plansList')
         <div class="col-xs-12">
 
-        <h2>Horaires et lieux des cours</h2>
-        <p>Le mardi de 10h à 11h 30 à la Résidence "Bocage parc",
-                21-27 Rue Croix Montoire, 37100 Tours,
-                arrêt de tram "Tranchée"</p>
-        <p>Le mercredi de 18h 45 à 20h 15 au Centre Social Pluriel(le)s,
-                6 avenue du GAL de Gaulle (quartier du Sanitas), 
-                arrêt tram: Liberté
-                </p>
-        </div>
+                <h2>Horaires et lieux des cours</h2>
+                <p>Le mardi de 10h à 11h 30 à la Résidence "Bocage parc",
+                        21-27 Rue Croix Montoire, 37100 Tours,
+                        arrêt de tram "Tranchée"</p>
+                <p>Le mercredi de 18h 45 à 20h 15 au Centre Social Pluriel(le)s,
+                        6 avenue du GAL de Gaulle (quartier du Sanitas), 
+                        arrêt tram: Liberté
+                        </p>
+                </div>
+        <hr>
+        @include('components.plansSubscription.plansList')
+
     </div>
     @stop
 {{-- JS--}}

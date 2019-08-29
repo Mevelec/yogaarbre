@@ -1,7 +1,8 @@
-<div class="planSubscription col-sm-4 ">
+<div class="planSubscription col-xs-12 col-md-4 ">
     <div class="inner">
         <div class="title">
-            M'inscrire
+            <h4>Tarifs</h4>
+            <h3 class="totam">87€</h3>
         </div>
         <div class="content">
             <div class="details">
@@ -14,7 +15,9 @@
             </div>
         </div>
         <div class="footer">
-            click me
+            <button class="btn btn-primary" type="submit">
+                Inscription &#187;
+            </button>
         </div>
     </div>
 </div>

@@ -9,23 +9,32 @@
         -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.5);
         -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.5);
         -o-box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+
+        border-top: $text-color-main solid 8px;
     
         text-align: center;
-    }
-    > .title{
-        padding: 10px;
+        padding: 0px 10px;
 
-    }
-
-    > .content{
-        > .details{
-            > .item{
-                padding: 10px;
+        > .title{
+            padding: 10px;
+            border-bottom: $text-color-main-darker dashed 1px;
+        }
+    
+        > .content{
+            border-bottom: $text-color-main-darker dashed 1px;
+            > .details{
+                > .item{
+                    padding-top: 10px;
+                }
+                > .item:last-child{
+                    padding-bottom: 10px;
+                }
             }
+        }
+    
+        > .footer{
+            padding: 20px 10px;
         }
     }
 
-    > .footer{
-        padding: 10px;
-    }
 }

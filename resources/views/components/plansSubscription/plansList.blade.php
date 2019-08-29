@@ -1,9 +1,6 @@
 <div class="plansList container-fluid">
-    <div class="row">
-        @include('components.plansSubscription.planSubscription')
-        @include('components.plansSubscription.planSubscription')
-
+    <h2>Inscrivez vous dès maintenant</h2>
+    <div class="row justify-content-md-center">
         @include('components.plansSubscription.planSubscription')
     </div>
-
 </div>

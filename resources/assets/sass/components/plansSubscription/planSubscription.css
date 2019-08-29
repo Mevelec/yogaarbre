@@ -1,0 +1,21 @@
+.planSubscription {
+  padding: 10px;
+}
+.planSubscription > .inner {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-top: red solid 8px;
+  text-align: center;
+}
+.planSubscription > .inner > .title {
+  padding: 10px;
+}
+.planSubscription > .inner > .content > .details > .item {
+  padding: 10px;
+}
+.planSubscription > .inner > .footer {
+  padding: 10px;
+}
