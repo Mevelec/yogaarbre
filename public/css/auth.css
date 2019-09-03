@@ -1,0 +1,29 @@
+.auth {
+  padding: 50px;
+  background: url(/../images/backgrounds/background-sprout.jpg);
+  width: 100vw;
+  height: 100%;
+  margin-left: calc(50% - 50vw);
+  z-index: 10;
+  margin-top: -65px;
+  padding-top: 130px;
+  min-height: 100%;
+}
+
+.auth .panel {
+  background-color: #fff;
+  border: solid 1px #1e1e1e;
+  padding: 20px 50px;
+}
+
+.auth .panel .panel-heading {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.auth .panel .form-group label {
+  font-size: 16px;
+  font-weight: 400;
+}
+

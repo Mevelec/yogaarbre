@@ -4,10 +4,9 @@
 
 {{-- HEADER--}}
     @push('header')
-        
     @endpush
     @push('css')
-        
+        <link rel="stylesheet" href="{{mix('/css/auth.css')}}">
     @endpush
 
 {{-- BODY --}}
@@ -16,7 +15,7 @@
     @stop
 
     @section('content')
-        <div class="container">
+        <div class="auth background-center">
             <div class="row justify-content-md-center">
                 <div class="col-xs-10 col-md-6 col-lg-4">
                     <div class="panel panel-default">

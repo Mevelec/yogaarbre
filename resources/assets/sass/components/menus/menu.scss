@@ -2,7 +2,10 @@
   overflow: hidden;
   text-align: right;
   background-color: #fff;
-
+  height: 65px;
+  position: relative;
+  z-index: 100;
+  
   a {
     display: inline-block;
     text-align: center;

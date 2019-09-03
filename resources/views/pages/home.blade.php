@@ -33,6 +33,9 @@
     </div>
     @stop
     
+    @section('footer')
+        @include('components.footers.thanks')
+    @stop
 {{-- JS--}}
     @push('js')
         

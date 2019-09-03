@@ -15,6 +15,8 @@
         <div class="container">
             @yield('content')
         </div>
+
+        @yield('footer')
     </body> 
     @stack('js')
 </html>
