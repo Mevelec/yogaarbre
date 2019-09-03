@@ -32,6 +32,7 @@
 
     </div>
     @stop
+    
 {{-- JS--}}
     @push('js')
         
