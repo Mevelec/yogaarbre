@@ -1,4 +1,5 @@
 {
     "/css/app.css": "/css/app.css",
-    "/css/auth.css": "/css/auth.css"
+    "/css/auth.css": "/css/auth.css",
+    "/css/blog.css": "/css/blog.css"
 }

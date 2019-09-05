@@ -4,7 +4,11 @@
     </a>
   <a href="{{url('/')}}" class="active">Accueil</a>
   <a href="{{url('/memberSpace')}}">Membre</a>
-  <a href="{{url('/register')}}">Inscription</a>
+  @if(Auth::check())
+    <a href="{{url('/logout')}}">Déconnection</a>
+  @else
+    <a href="{{url('/register')}}">Inscription</a>
+  @endif
   <a href="{{url('/contact')}}">Contact</a>
   <a href="{{url('/about')}}">A propos</a>
 </div>

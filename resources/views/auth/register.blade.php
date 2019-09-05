@@ -79,6 +79,9 @@
                                         <button type="submit" class="btn btn-primary">
                                             Créer votre compte
                                         </button>
+                                        <a class="btn btn-link" href="{{ url('/login') }}">
+                                            J'ai déja un compte
+                                        </a>
                                     </div>
                                 </div>
                             </form>
