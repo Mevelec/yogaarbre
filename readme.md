@@ -16,3 +16,13 @@ Open 2 new terminals and launch 2 commands :
 
 #SASS
 You can edit css & js in resources/assets. app.js & app.css are the mains files and you may want to include inside reference to other files
+
+
+#Server
+Install php 
+Install nginx
+update required libs 
+sudo apt install php7.4-common php7.4-bcmath openssl php7.4-json php7.4-mbstring
+install composer
+pull project
+run composer install
