@@ -34,7 +34,8 @@
     @stop
     
     @section('footer')
-        @include('components.footers.thanks')
+        @include('components.footers.mainFooter')
+        {{--@include('components.footers.copyrights')--}}
     @stop
 {{-- JS--}}
     @push('js')
